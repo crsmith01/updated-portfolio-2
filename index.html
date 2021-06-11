@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet"/>        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" href="./style.css">
+        <title>Portfolio</title>
+    </head>
+
+<body>
+    <header class="header">
+        <h1>Catherine Smith</h1>
+        <nav>
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+  <div id="about-me" class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-12 col-md-6">
+            <img class="img-fluid" src="images/catherine_headshot_sunken_garden.png" alt="Catherine Smith headshot in Sunken Gardens at William & Mary" class="profile-photo" class="float-keep-left"/>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <h1 class="aboutMe">About Me</h1>
+          <p> My name is Catherine Smith, and I am an emerging full-stack web developer currently compeleting the University of Richmond's 
+            Coding Boot Camp. I am also a recent graduate of the MSc program in Information and Library Studies at the University of Strathclyde 
+            in Glasgow. I decided to pursue web development because it's a face-paced, challenging, creative career path with opportunites to grow as a person 
+            and professional.</p>
+            <br>
+            <p> While volunteering time as a Library Ambassador at the Earl Gregg Swem Library, I worked with the media team to create virtual tours and how-to videos 
+            for utilizing library services, and I contacted professors and students to act as a reference point if they had any questions about how to utilize 
+            any of the libraries at William and Mary.  Ensuring that people know how to best access and utilize the resources at their disposal is a passion of mine.  I enjoy 
+            studying new subjects, learning German and Polish, drinking tea, spending time with friends and family, watching LOTR, singing, baking,and 
+            listening to audiobooks (particularly if they are narrated by Richard Armitage, Elizabeth Wiley, Jim Dale, or Stephen Fry)!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section id="portfolio" class="projects row">
+      <div class="col-12 col-md-9">
+        <h2>Portfolio</h2>
+        <section class="row justify-content-around">
+          <div class="col-12 col-sm-6 col-lg-4 mb-3">
+            <div class="card">
+              <h3 class="card-header">
+                Password Generator
+              </h3>
+              <a href="https://crsmith01.github.io/homework-3-password-generator/">
+                <img src="./images/password-screenshot.png" class="card-img-top" alt="Screenshot of password generator application" class="first-project"/>
+            </a>
+              <div class="card-body">
+                <p class="card-text">
+                    App to create a password with alphanumeric and special characters.
+                </p>
+                <button class="btn btn-block btn-info"><a href='https://github.com/crsmith01/homework-3-password-generator'>GitHub Repository</a></button>
+                <button class="btn btn-block btn-info"><a href='https://crsmith01.github.io/homework-3-password-generator/'>Deployed Application</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-3">
+            <div class="card">
+              <h3 class="card-header">
+                Work Day Scheduler
+              </h3>
+              <a href="https://crsmith01.github.io/homework5-day-planner/">
+                <img src="./images/work-day-scheduler-screenshot.png" class="card-img-top" alt="Screenshot of deployed work day scheduler application"/>
+              </a>
+              <div class="card-body">
+                <p class="card-text">
+                    Work day scheduling app with color-coded time slots and ability to save notes.
+                </p>
+                <button class="btn btn-block btn-info"><a href='https://github.com/crsmith01/homework5-day-planner'>GitHub Repository</a></button>
+                <button class="btn btn-block btn-info"><a href='https://crsmith01.github.io/homework5-day-planner/'>Deployed Application</a></button>              
+            </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-3">
+            <div class="card">
+              <h3 class="card-header">
+                Project 1 - Musical
+              </h3>
+              <a href="https://crsmith01.github.io/homework-3-password-generator/">
+                <img src="./images/password-screenshot.png" class="card-img-top" alt="Screenshot of password generator application" class="first-project"/>
+            </a>
+              <div class="card-body">
+                <p class="card-text">
+                    App for finding musical performances in town and viewing artists’ top videos.
+                </p>
+                <button class="btn btn-block btn-info"><a href='https://github.com/crsmith01/Musical'>GitHub Repository</a></button>
+                <button class="btn btn-block btn-info"><a href='https://crsmith01.github.io/Musical/'>Deployed Application</a></button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <hr />
+
+    <footer id="contact" class="row justify-content-center align-items-center">
+      <div class="col-12 col-sm-6 col-md-4">
+        <address>
+            <h2>Contact Me</h2>
+            <section>
+                <p><span class="contact-info">Phone:</span> +1 (804) 929-7812</p>
+                <p><span class="contact-info">Email:</span> catsmith24601@gmail.com</p>
+                <p>
+                    <a href="https://www.linkedin.com/in/catherine-smith24601"><i class="fa fa-linkedin-square"></i></a>
+                </p>
+                <p>
+                    <a href="https://github.com/crsmith01">GitHub</a>
+                </p>
+                <p>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub">Resume</a>
+                </p>
+            </section>
+        </address>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
