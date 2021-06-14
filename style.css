@@ -131,3 +131,9 @@ span.contact-info {
     color: purple;
   }
 
+
+
+footer p:after {
+    content: 'Catherine Smith';
+    color: purple
+}
