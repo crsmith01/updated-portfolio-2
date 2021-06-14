@@ -38,6 +38,7 @@ nav a {
 
 h3 {
     color: darkslateblue;
+    font-size: 25px;
 }
 
 .float-keep-left {
@@ -58,8 +59,7 @@ p {
 }
 
 img {
-    border-radius: 20px;
-    margin: 10px;
+    border-radius: 8px;
 }
 
 h2, .aboutMe {
@@ -138,6 +138,14 @@ footer p:after {
     content: 'Catherine Smith';
     color: purple
 }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 /* tooltip for showing contact info, esp. phone */
 .tooltip {
