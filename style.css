@@ -72,8 +72,8 @@ h2, .aboutMe {
     background-color: #d5f7f7;
 }
 
-.footer {
-    padding: 30px;
+footer {
+    padding: 10px;
     clear: both;
     text-align: center;
     justify-content: center;
