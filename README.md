@@ -5,10 +5,10 @@ As I progress through the program and create more applications (projects and hom
 ```
 ```
 ## My Portfolio Links
-1. Link to Porfolio: [link](https://crsmith01.github.io/homework-7-updated-profile)
-2. Link to Resume: [link](https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub)
-3. Link to GitHub profile: [link](https://github.com/crsmith01)
-4. Link to LinkedIn profile: [link](https://www.linkedin.com/in/catherine-smith24601)
+1. [Link to Porfolio:](https://crsmith01.github.io/homework-7-updated-profile)
+2. [Link to Resume:](https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub)
+3. [Link to GitHub profile:](https://github.com/crsmith01)
+4. [Link to LinkedIn profile:](https://www.linkedin.com/in/catherine-smith24601)
 
 ```
 ```         
@@ -50,7 +50,7 @@ GIVEN they need to sample a potential employee's previous work
 
 ## Link to deployed application: 
 The deployed application can be found via this 
-[link](https://crsmith01.github.io/homework-7-updated-portfolio).
+[link](https://github.com/crsmith01/updated-portfolio-2).
 
 ```
 ```
