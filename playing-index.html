@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet" /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/447c5dcdde.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
@@ -29,7 +30,7 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"
+                    <a class="nav-link" target="_blank"
                         href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub">Resume</a>
                 </li>
                 <li class="nav-item">
@@ -192,23 +193,64 @@
 
         <hr />
 
-
-<!-- opens in new tab, as opposed to above, which opens in same tab -->
         <section class="row contact-section align-items-center justify-content-center" id="contact">
+            <div>
+                <h2>Contact Me</h2>
+                <div id="contact-info">
+                    <div class="tooltip">Tooltip Practice
+                        <span class="tooltiptext">Testing</span>
+                    </div>
+                    <div class="tooltip">
+                        <a href="mailto:catsmith24601@gmail.com">
+                            <i class="fas fa-3x fa-envelope-square"></i>
+                            <span class="tooltiptext">catsmith24601@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="tooltip">
+                        <a href="https://www.linkedin.com/in/catherine-smith24601" target="_blank" class="toopltip">
+                            <i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i>
+                            <span class="tooltiptext">LinkedIn Profile</span>
+                        </a>
+                    </div>
+                    <div class="tooltip">
+                        <a href="https://github.com/crsmith01" target="_blank">
+                            <i class="fab fa-3x fa-github"></i>
+                            <span class="tooltiptext">GitHub Profile</span>
+                        </a>
+                    </div>
+                    <div class="tooltip">
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub"
+                            target="_blank">
+                            <i class="fas fa-3x fa-id-badge"></i>
+                            <span class="tooltiptext">View Resume</span>
+                        </a>
+                    </div>
+                    <div class="tooltip">
+                        <a>
+                            <span class="tooltiptext">(804) 929-7812</span>
+                            <i class="fas fa-3x fa-phone-square-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- no tooltips in this section in case the above does not work -->
+        <!-- target="_blank" means it opens in new tab, as opposed to above, which opens in same tab -->
+        <!-- <section class="row contact-section align-items-center justify-content-center" id="contact">
             <div>
                 <h2>Contact Info</h2>
                 <div id="contact-info">
-                    <a href="mailto:catsmith24601@gmail.com" class="tooltip"><i class="fas fa-3x fa-envelope-square"></i></a>
-                    <a href="https://www.linkedin.com/in/catherine-smith24601" target="_blank" class="toopltip"><i
+                    <a href="mailto:catsmith24601@gmail.com"><i class="fas fa-3x fa-envelope-square"></i></a>
+                    <a href="https://www.linkedin.com/in/catherine-smith24601" target="_blank"><i
                             class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
-                    <a href="https://github.com/crsmith01" target="_blank" class="tooltip"><i class="fab fa-3x fa-github"></i></a>
+                    <a href="https://github.com/crsmith01" target="_blank"><i class="fab fa-3x fa-github"></i></a>
                     <a
-                        href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub" target="_blank" class='tooltip'><i class="fas fa-3x fa-id-badge"></i></a>
-                    <a class='tooltip'><span class="tooltiptext">"(804) 929-7812"></span><i class="fas fa-3x fa-phone-square-alt"></i></a>
+                        href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub"><i class="fas fa-3x fa-id-badge"></i></a>
+                    <a class="contact-item" data-label="(804) 929-7812"></aclass><i class="fas fa-3x fa-phone-square-alt"></i></a>
                 </div>
-
             </div>
-        </section>
+        </section> -->
 
         <footer>
             <p>Created by </p>

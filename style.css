@@ -2,7 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Nanum Myeongjo', serif;
+    /* font-family: 'Nanum Myeongjo', serif; */
+    font-family: 'Benne', serif;
     scroll-behavior: smooth;
 }
 
@@ -142,7 +143,7 @@ footer p:after {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
   }
   
 .tooltip .tooltiptext {
@@ -154,11 +155,20 @@ footer p:after {
     border-radius: 6px;
     padding: 5px 0;
   
-    /* Position the tooltip */
+    /* Position the tooltip above the text (icon in this case)*/
     position: absolute;
     z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
   }
   
 .tooltip:hover .tooltiptext {
     visibility: visible;
+    opacity: 1;
 }
