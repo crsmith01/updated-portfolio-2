@@ -2,23 +2,22 @@
 
 As I progress through the program and create more applications (projects and homework assignments), I will be updating my portfolio to build toward becoming employer-competitive. This is an update following the completion of project 2.
 
-```
-```
+
 ## My Portfolio Links
-1. [Link to Porfolio:](https://crsmith01.github.io/homework-7-updated-profile)
-2. [Link to Resume:](https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub)
-3. [Link to GitHub profile:](https://github.com/crsmith01)
-4. [Link to LinkedIn profile:](https://www.linkedin.com/in/catherine-smith24601)
+```
+1. [Link to Porfolio](https://github.com/crsmith01/updated-portfolio-2)
+2. [Link to Resume](https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub)
+3. [Link to GitHub profile](https://github.com/crsmith01)
+4. [Link to LinkedIn profile](https://www.linkedin.com/in/catherine-smith24601)
 
 ```
-```         
+
 ## User Story
 
 ```
 AS A potential employee,
 I WANT to update my deployed portfolio of work samples for potential employers to view
 SO THAT THEY can review samples of my work and assess whether I am a good candidate for an open position.
-```
 ```
 
 ## Acceptance Criteria
@@ -40,20 +39,18 @@ GIVEN they need to sample a potential employee's previous work
 6. WHEN they click a link or button,
     THEN they are taken to the appropriate destination (i.e. GitHub profile, LinkedIn profile, deployed application, GitHub repository)
 ```
-```
 
-## Screenshot(s) of finished product:
-![screenshot](./images/portfolio_hw7.png)
+## Screenshots of finished product:
+![top](./assets/images/navbar-and-about-me.png)
+![bottom](./assets/images/portfolio-and-contact.png)
+![tooltip](./assets/images/tooltips-displayed.png)
 
-```
-```
+
 
 ## Link to deployed application: 
 The deployed application can be found via this 
 [link](https://github.com/crsmith01/updated-portfolio-2).
 
-```
-```
 
 ### Brought to you by:
 * [Catherine Smith](https://github.com/crsmith01)
