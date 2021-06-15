@@ -1,6 +1,7 @@
 # Updated Portfolio
 
 As I progress through the program and create more applications (projects and homework assignments), I will be updating my portfolio to build toward becoming employer-competitive. This is an update following the completion of project 2.
+*Note: I realize the block vs. inline spacing is a bit wonky at the moment. I'll end up making it different once updating with React soon.
 
 
 ## My Portfolio Links
